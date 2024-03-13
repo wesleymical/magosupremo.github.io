@@ -1,0 +1,2 @@
+dig magosupremo.com +noall +answer -t A
+dig magosupremo.com +noall +answer -t AAAA
