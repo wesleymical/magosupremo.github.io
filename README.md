@@ -1,1 +1,1 @@
-magosupremo.com.br
+magosupremo.com
