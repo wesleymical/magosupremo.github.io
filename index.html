@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html style="font-size: 14px;font-family: Roboto, Arial, sans-serif;" lang="pt-BR" data-theme="dark" >
     <head>
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
         <meta charset="UTF-8">
         <title>Mago Supremo</title>
         <style>
             body {
                 background-image: url("imagens/galaxy.jpg");
-                background-repeat: no-repeat;
                 background-size: cover;
                 color: white;
                 text-align: center;
                 margin: 4em auto 0em;
                 width: 100%;
+                object-position: center;
             }
 
             .l_ecrd_webicon_module_wrapper {
@@ -26,6 +27,16 @@
 
             .sub_titulo {
                 margin: 3em auto 5em;
+                text-align: inherit;
+                width: 70%;
+            }
+
+            @media(min-width: 200px) and (max-width: 420px) {
+                .sub_titulo {
+                    margin: 3em 15em 5em 0em;
+                    text-align: center;
+                    width: 100%;
+                }
             }
 
             .teste_cont {
@@ -41,7 +52,8 @@
                 <div clas="informacoes">
                     <h1>Mago Supremo Sistemas e Consultoria</h1>
                     <div class="sub_titulo">
-                    <h1 id="contato">Contato: suporte@magosupremo.com</h1>
+                        <h1 id="contato">Contato:</h1>
+                        <h2>suporte@magosupremo.com</h2>
                     </div>
                     <div class="teste_cont">
                         <div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="wesleymical" data-version="v1">
