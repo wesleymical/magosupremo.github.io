@@ -1,0 +1,43 @@
+html {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("imagens/galaxy.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 4em auto 0em;
+    width: 100%; 
+    object-position: center;
+}
+
+.l_ecrd_webicon_module_wrapper {
+    object-position: center;
+    margin: 4em auto 6em;
+}
+
+.sp-webicons28_INST {
+    width: 40px;
+    height: 40px;
+}
+
+.sub_titulo {
+    margin: 3em auto 5em;
+    text-align: inherit;
+    width: 70%;
+}
+
+@media(min-width: 200px) and (max-width: 420px) {
+    .sub_titulo {
+        margin: 3em 15em 5em 0em;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.teste_cont {
+    margin: 4em auto 4em;
+    width: 320px;
+}
